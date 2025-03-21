@@ -1,0 +1,22 @@
+
+public class Code02_09 {
+	public static void main(String[ ] args) {
+		int number1=10, number2=20;
+		int resAdd;
+		int resSub;
+		int resMul;
+		double resDiv;
+		
+		resAdd=number1 +  number2;
+		resSub=number1 -  number2;
+		resMul=number1 *  number2;
+		resDiv=double(number1) /  number2;
+		
+		System.out.println(number1 + "+" + number2 + "="+ resAdd ); //10+20=30출력
+		System.out.println(number1 + "-" + number2 + "="+ resSub ); //10-20=-10 출력
+		System.out.println(number1 + "x" + number2 + "="+ resMul ); //10x20=200 출력
+		System.out.println(number1 + "/" + number2 + "="+ resDiv ); //10/20=0.0 출력
+		
+		
+	}
+}

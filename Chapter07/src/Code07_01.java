@@ -12,7 +12,8 @@ public class Code07_01 {
 	
 	curX=(int) turtle.getX();//현재x좌표 저장
 	curY=(int) turtle.getY();//현재y좌표 저장 
-	System.out.println("거북이 위치 ==>"+curX+","+curY);
+	System.out.println("거북이 위치 ==>"+curX+","+curY);//좌표 출력
+
 
 	} 
 }
